@@ -2,11 +2,11 @@ const archivoDeTareas = require("./funcionesDeTareas");
 const command = process.argv[2];
 
 switch (command) {
-  case "listar":
+  case "listarr":
     archivoDeTareas.listar();
     break;
   case undefined:
-    console.log("pasame algo bro");
+    console.log("no enviaste ningun comando");
     break;
   case "crear":
     let tarea = {
@@ -44,3 +44,7 @@ switch (command) {
     console.log("no te entiedo");
     break;
 }
+
+// git remote add origin git@github.com:fd1az/tareas.git
+// git branch -M main
+// git push -u origin main
