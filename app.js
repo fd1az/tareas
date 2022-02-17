@@ -2,7 +2,7 @@ const archivoDeTareas = require("./funcionesDeTareas");
 const command = process.argv[2];
 
 switch (command) {
-  case "listar":
+  case "otracosa":
     archivoDeTareas.listar();
     break;
   case undefined:
