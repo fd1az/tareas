@@ -34,7 +34,7 @@ switch (command) {
   case "help":
   case "-h":
     console.log(`comandos habilitados:
-    crear:      crea una nueva tarea con estado pendiente. Espera un arg tipo String
+    crear:      crea una nueva tarea con estado pendiente. Espera un arg tipo String...
     listar:     lista las tareas pendientes
     help:       te ayudo a que no mandes giladas
     `);
