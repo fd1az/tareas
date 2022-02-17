@@ -3,7 +3,7 @@ const command = process.argv[2];
 
 switch (command) {
   case "listar":
-    archivoDeTareas.listar(;
+    archivoDeTareas.listar();
     break;
   case undefined:
     console.log("no enviaste ningun comando");
