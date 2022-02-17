@@ -6,7 +6,7 @@ switch (command) {
     archivoDeTareas.listar();
     break;
   case undefined:
-    console.log("pasame algo bro");
+    console.log("no enviaste ningun comando");
     break;
   case "crear":
     let tarea = {
